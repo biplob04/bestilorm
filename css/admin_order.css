@@ -1,0 +1,15 @@
+#content #content-header:after {
+	border: 1px solid #FE4157;
+}
+
+.modal-btn {
+	background-color: #FE4157;
+}
+
+.options-book a {
+	color: #FE4157;
+}
+
+#registered-books table td.td-header {
+	color: #FE4157;
+}

@@ -1,0 +1,62 @@
+.content p:first-child {
+	font-family: 'Titillium Web';
+	text-align: center;
+	margin-bottom: 45px;
+	font-size: 30px;
+	color: #292f36;
+	letter-spacing: 1px;
+	position: relative;
+	margin-top: -35px;
+}
+
+.content p:first-child:after {
+	content: '';
+	border: 1px solid #fe4157;
+	transform: rotate(180deg);
+	position: absolute;
+	width: 20px;
+	bottom: -5px;
+	left: 49.2%;
+}
+
+.content .td-header {
+	border-bottom: 2px solid #dadada;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+.compras-content td {
+	border-bottom: 1px solid #dadada;
+}
+
+.livros-compras {
+	height: 30px;
+	border-radius: 28px;
+	background-color: #fe4157;
+	width: 70px;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+}
+
+.order-books .order-books-cnt {
+	width: 30%;
+	color:  #292f36;
+	padding: 20px 30px;
+}
+
+.order-books-cnt li {
+	margin: 10px 0;
+}
+
+.order-books-cnt li a {
+	color: #fe4157;
+}
+
+.order-books-cnt li span {
+	font-size: 13px;
+	color: #9e9e9e;
+}

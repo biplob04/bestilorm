@@ -1,0 +1,24 @@
+.delete-modal-cnt input {
+	padding: 10px;
+	color: #5a5a5a;
+	width: 100px;
+	border: 0;
+	border-bottom: 1px solid #9e9e9e;
+	transition: 0.3s;
+	border-radius: 2px;
+	margin: 0 10px;
+}
+
+.delete-modal-cnt input:focus {
+	outline: 0;
+}
+
+.delete-modal-cnt button {
+	background-color: #3ba296;
+	color: #fff;
+	cursor: pointer;
+	height: auto;
+	padding: 11px;
+	width: auto;
+	border: 0;
+}

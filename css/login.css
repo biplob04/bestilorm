@@ -1,0 +1,190 @@
+.container div.header {
+	height: 16vh;
+	position: relative;
+	z-index: 1002;
+}
+
+#login-content {
+	font-weight: 400;
+	width: 100%;
+	height: 89vh;
+	margin-top: -5vh;
+	position: relative;
+}
+
+#login-bg {
+	background-image: url('../media/login-bg.jpg');
+	background-size: cover;
+	height: 10%;
+	width: 100%;
+	background-position: center;
+	z-index: -1001;   
+}
+
+form input {
+	margin: 5px;
+}
+
+#signin-frm {
+	z-index: 1001;
+	position: absolute;
+	font-family: 'Nunito', sans-serif;
+	top: 0;
+	width: 50%;
+	padding: 100px 50px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.or-divider {
+	font-family: 'Nunito', sans-serif;
+	color: #292f36;
+	margin: 100px 0;
+	text-align: center;
+	width: 130%;
+}
+
+.or-divider h1 {
+	font-size: 70px;
+	border-top: 1px solid #9e9e9e;
+	border-bottom: 1px solid #9e9e9e;
+	padding: 40px 0;
+	background-image: url('../media/header-img.jpg');
+	margin-left: -20%;
+	background-size: cover;
+	font-weight: 200;
+}
+
+.or-divider h1 span {
+	background-color: rgb(255, 255, 255, 0.7);
+	padding: 10px 70px;
+}
+
+#register-frm h2, #login-frm h2 {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	margin: 0 auto 60px auto;
+	color: #292f36;
+	padding: 10px;
+	width: 250px;
+}
+
+
+/** Erryin for input styling */
+.inp {
+	position: relative;
+	margin: auto;
+	font-family: 'Nunito', sans-serif;
+	max-width: 280px;
+}
+
+.small-inp input {
+	width: 43% !important;
+}
+
+.med-inp input {
+	width: 40% !important;
+}
+
+.smallest-inp input {
+	width: 27% !important;
+}
+
+.left-margin {
+	margin-left: 13%;
+}
+
+.left-margin2 {  /** For birthday input **/
+	margin-left: 8.5%;
+}
+
+.inp input {
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	width: 100%;	
+	border: 0;
+	font-family: inherit;
+	padding: 12px 0;
+	margin: 0;
+	height: 20px;
+	font-size: 16px;
+	border-bottom: 1px solid #9e9e9e;
+	background: none;
+	border-radius: 0;
+	color: #292f36;
+	transition: all 0.15s ease;
+}
+
+.inp input:not(:placeholder-shown) + span {
+	color: #696D7D;
+	transform: translateY(-26px) scale(0.75);
+}
+
+.inp input:focus {
+	outline: none;
+	background: none;
+}
+
+.inp input:focus + span {
+	color: #292f36;
+	transform: translateY(-26px) scale(0.75);
+}
+
+.inp input:focus + span + .border {
+	transform: scaleX(1);
+}
+
+.inp .label {
+	position: absolute;
+	top: 5px;
+	left: 0;
+	transform-origin: 0 0;
+	z-index: -1001;
+	font-size: 16px;
+	color: #696D7D;
+	transition: all 0.2s ease;
+}
+
+.inp .border {
+	position: absolute;
+	bottom: -12px;
+	left: 0;
+	height: 2px;
+	width: 100%;
+	background: #292f36;
+	transform: scaleX(0);
+	transform-origin: 0 0;
+	transition: all 0.15s ease;
+}
+
+/** input stylin till here lad **/
+#no-match-password, #postCodError {
+	display: none;
+	position: absolute;
+	font-size: 11px;
+	bottom: -35px;
+	color: #FE4157;
+}
+
+#no-match-password {
+	right: 45%;
+}
+
+form button {
+	padding: 10px 25px;
+	border: 2px solid #292f36;
+	background-color: #292f36;
+	cursor: pointer;
+	color: #fff;
+	font-size: 15px;
+	font-family: 'Nunito', sans-serif;
+	transition: 0.2s ease;
+}
+
+form button:hover {
+	background-color: transparent;
+	color: #696D7D;
+	border: 2px solid #696D7D;
+}

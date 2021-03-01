@@ -1,0 +1,256 @@
+.modal-box {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1002;
+	padding: 0;
+	font-family: 'Nunito';
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.delete-modal-cnt {
+	width: auto;
+	position:absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	background-color: #fff;
+	height: auto;
+	border-radius: 2px;
+	padding: 30px;
+	font-size: 15px;
+	line-height: 30px;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.noselect {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently */
+}
+
+body {
+	background-color: #f5f5f5;
+}
+
+#container {
+	width: 100%;
+}
+
+#sidebar {
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100vh;
+	background-color: #292f36;
+	width: 17%;
+}
+
+#sidebar #user-details {
+	padding: 20px 10px 0px 10px;
+}
+
+#sidebar #acc-circle i {
+	font-size: 60px;
+	color: #f5f5f5;
+	float: left;
+	margin-right: 10px;
+	text-rendering: optimizeLegibility;
+}
+
+#sidebar #userName {
+	text-overflow: ellipsis;
+    overflow: hidden; 
+  	white-space: nowrap;
+	color: #f5f5f5;
+	font-family: 'Titillium Web';
+}
+
+#userName #fName {
+	font-size: 25px;
+}
+
+#userName #uEmail {
+	font-size: 12px;
+	color: #fe4157;
+}
+
+#sidebar ul li {
+	width: 100%;
+}
+
+#sidebar ul li:first-child {
+	margin-top: 50px;
+}
+
+#sidebar ul li a {
+	text-decoration: none;
+	color: #f5f5f5;
+	font-size: 14px;
+	width: 80%;
+	letter-spacing: 0.2px;
+	padding: 10px 10%;
+	display: inline-block;
+	font-family: 'Nunito';
+}
+
+#sidebar ul li a span {
+	position: relative;
+	top: -7px;
+	margin-left: 10px;
+}
+
+#sidebar ul li a:hover {
+	background-color: #323942;
+}
+
+#sidebar ul li a i {
+	font-size: 30px;
+	text-rendering: optimizeLegibility;
+}
+
+.current-opt {
+	background-color: #fe4157 !important;
+}
+
+
+/** content starts here **/
+
+#content {
+	margin-left: 17%;
+	padding: 20px;
+}
+
+.ubo-stats {
+	display: flex;
+}
+
+.stats-panel {
+	background-color: #fff;
+	width: 27%;
+	margin: 0 2%;
+	font-family: 'Titillium Web';
+	padding: 20px;
+	height: auto;
+}
+
+.stats-icon {
+	float: left;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+.stats-icon + p + p {
+	color: #9e9e9e;
+	font-size: 12px;
+}
+
+#users-N {
+	background-color: #8657A5;
+}
+
+#books-N {
+	background-color: #49C5B6;
+}
+
+#orders-N {
+	background-color: #FE4157;
+}
+
+
+.stats-mod {
+	background-color: #fff;
+	width: 27%;
+	height: auto;
+	margin: 50px 2% 0 2%;
+	font-family: 'Nunito';
+	padding: 10px 20px;
+}
+
+.stats-mod ul li {
+	display: block;
+	margin: 20px;
+}
+
+.stats-mod ul li a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#users-mod ul li a {
+	color: #8657A5;
+}
+#books-mod ul li a {
+	color: #49C5B6;
+}
+#orders-mod ul li a {
+	color: #FE4157;
+}
+
+
+.space140px {
+	height: 140px;
+}
+
+
+
+#nota-mod {
+	margin-left: 20px;
+}
+
+.warning-box {
+	height: 50px;
+	background-color: #fff;
+	padding: 20px;
+	margin: 20px 0;
+	font-family: 'Titillium Web';
+}
+
+#nota-users .warning-ico {
+	background-color: #8657A5;
+}
+
+#nota-books .warning-ico {
+	background-color: #49C5B6;
+}
+
+#nota-orders .warning-ico {
+	background-color: #FE4157;
+}
+
+.warning-ico {
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	float: left;
+	margin-right: 20px;
+	border-radius: 50%;
+}
+
+.warning-ico i {
+	color: #fefefe;
+	font-size: 30px;
+	line-height: 50px;
+}
+
+.warning-ico + p {
+	color: #292f36;
+	margin-top: 12px;
+}

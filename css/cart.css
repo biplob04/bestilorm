@@ -1,0 +1,379 @@
+/* Change 'Livros' navigation drop-down's hover color */
+
+div.drp-cnt a:hover {
+	background-color: #fe4157;
+} 
+
+.container div.header {
+	height: 35vh;
+	position: relative;
+	z-index: 1002;
+}
+
+div#header-img {
+	background-image: url("../media/cart-header.jpeg");
+	height: 40%;
+	background-position: center;
+}
+
+.cart-icon span {
+	background-color: #fe4157;
+}
+
+#cart-content {
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+	width: 80%;
+	margin: 0 auto;
+	font-family: 'Nunito', sans-serif;
+	height: auto;
+	position: relative;
+	background-color: #fff;
+}
+
+#cart-content table {
+	width: 100%;
+	padding: 0;
+}
+
+#cart-content table td {
+	padding: 25px 30px;
+}
+
+.td-header {
+	font-size: 14px;
+	font-weight: 700;
+	border-bottom: 1px solid #dadada;
+	color: #fe4157;
+}
+
+.book-details {
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.book-details img {
+	float: left;
+}
+
+.book-details .details {
+	margin-left: 150px;
+	margin-top: 20px;
+}
+
+.details h2 {
+	font-size: 15px;
+	color: #292f36;
+}
+
+.details p {
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+
+.details p span {
+	color: #fe4157;
+}
+
+div#quantity {
+	display: inline-block;
+	border: 1px solid #e9e9e9;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-radius: 30%;
+	color: #9e9e9e;
+	font-weight: 700;
+	letter-spacing: 1px;
+	padding: 7px 0; 
+} 
+
+div#quantity a {
+	text-decoration: none;
+	color: #9e9e9e;
+}
+
+.noselect {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently */
+}
+
+div#quantity input{
+	border: 0;
+	width: 8px;
+	color: #fe4157;
+}
+
+div#quantity input:focus {
+	outline: 0;
+}
+
+div#quantity input[type=number]::-webkit-inner-spin-button, div#quantity input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+div#quantity span:first-child, div#quantity span:last-child {
+	cursor: pointer;
+	padding: 8px 18px;
+}
+
+div#quantity span#minus {
+	border-top-left-radius: 30%;
+	border-bottom-left-radius: 30%;
+	background-color: #f0f0f0;
+}
+
+div#quantity span#plus {
+	border-top-right-radius: 30%;
+	border-bottom-right-radius: 30%;
+	background-color: #f0f0f0;
+}
+
+div#price {
+	color: #292f36;
+	font-weight: 400;
+	font-size: 17px;
+	display: inline-block;
+}
+
+span.price-symb {
+	font-size: 12px;
+}
+
+.remove-item div {
+	border-radius: 50%;
+	padding: 5px;
+	height: 11px;
+	width: 11px;
+	line-height: 11px;
+	background-color: #292f36;
+	text-align: center;
+}
+
+.remove-item div a {
+	color: #fefefe;
+	text-decoration: none;
+}
+
+.remove-item div a i {
+	font-size: 11px;
+}
+
+#removea {
+	width: 210px;
+}
+
+#remove-all {
+	height: 40px;
+	background-color: #fe4157;
+	width: 210px;
+	line-height: 40px;
+	color: #fff;
+	border-radius: 28px;
+	text-align: center;
+	transition: 0.3s;
+}
+
+#remove-all:hover {
+	background-color: #d23547;
+}
+
+
+#cart-checkout {
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+	width: 30%;
+	margin-top: 40px;
+	padding: 20px;
+	margin-left: 10%;
+	font-family: 'Nunito', sans-serif;
+	height: auto;
+	background-color: #fff;
+}
+
+#cart-checkout h4 {
+	color: #292f36;
+	float: left;
+}
+
+#cart-checkout h5 {
+	text-align: right;
+	color: #fe4157;
+	margin-bottom: 20px;
+}
+
+#cart-checkout div {
+	text-align: right;
+	padding-top: 20px;
+	border-top: 1px solid #dadada;
+}
+
+#cart-checkout div p {
+	background-color: #fe4157;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	height: 40px;
+	width: 110px;
+	line-height: 40px;
+	transition: 0.3s;
+	text-align: center;
+	border-radius: 28px;
+}
+
+#cart-checkout div p:hover {
+	background-color: #d23547;
+}
+
+#finalizar, #outra, .order-books, #utilizador-maneira {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1002;
+	padding: 0;
+	font-family: 'Nunito';
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#finalizar-content, #outra-content, .order-books-cnt, #utilizador-content {
+	width: auto;
+	position:absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	background-color: #fff;
+	height: auto;
+	padding: 0 40px 40px 40px;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+#outra-content {
+	width: 50%;
+}
+
+#finalizar-content #closeF, #outra-content #closeO, #OoS-books #closeF, #utilizador-content #closeU {
+	padding-top: 50px;
+	border-bottom: 1px solid #dadada;
+	margin-bottom: 10px;
+	width: 100%;
+	position: relative;
+}
+
+#OoS-books ul li {
+	display: block;
+}
+
+#OoS-books ul li a {
+	color: #fe4157;
+}
+
+#closeF p, #closeO p, #closeU p {
+	top: 10px;
+	width: 20px;
+	line-height: 20px;
+	text-align: center;
+	right: 0;
+	position: absolute;
+	cursor: pointer;
+	color: #292f36;
+}
+
+#closeO p {
+	top: 12px;
+}
+
+#finalizar-content p {
+	line-height: 35px;
+}
+
+#finalizar-content p span {
+	color: #9e9e9e;
+}
+
+#finalizar-buttons, #utilizador-buttons {
+	display: flex;
+}
+
+#finalizar-buttons p, #utilizador-buttons a {
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	background-color: #fe4157;
+	width: 120px;
+	cursor: pointer;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin-top: 20px;
+	border-radius: 28px;
+	transition: 0.3s;
+}
+
+#finalizar-buttons p:hover, #utilizador-buttons a:hover {
+	background-color: #d23547;
+}
+
+#finalizar-buttons p, #utilizador-buttons a {
+	margin-right: 10px;
+}
+
+form {
+	font-family: 'Nunito';
+	font-size: 13px;
+	margin-top: 10px;
+	position: relative;
+	padding: 15px;
+}
+
+form p {
+	margin-left: 4px;
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+
+form input {
+	padding: 10px;
+	margin: 10px 4px;
+	color: #5a5a5a;
+	border: 1px solid #dadada;
+	transition: 0.3s;
+	border-radius: 2px;
+}
+
+form input:hover, form input:focus {
+	border: 1px solid #9e9e9e;
+}
+
+form input::placeholder {
+	color: #5a5a5a;
+	font-size: 12px;
+}
+
+form button {
+	margin-top: 10px;
+	height: 40px;
+	width: 100px;
+	line-height: 30px;
+	border-radius: 28px;
+	background-color: #292f36;
+	color: #fff;
+	display: block;
+	border: 0;
+	cursor: pointer;
+}
+
+form select {
+	padding: 10px;
+	border: 1px solid #dadada;
+	color: #5a5a5a;
+}

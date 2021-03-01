@@ -1,0 +1,124 @@
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#content {
+	width: 79%;
+	color: #292f36;
+}
+
+#content #content-header {
+	font-family: 'Titillium Web';
+	text-align: center;
+	margin-bottom: 45px;
+	font-size: 30px;
+	color: #292f36;
+	letter-spacing: 1px;
+	position: relative;
+}
+
+#content #content-header:after {
+	content: '';
+	border: 1px solid #3ba296;
+	transform: rotate(180deg);
+	position: absolute;
+	width: 20px;
+	bottom: -5px;
+	left: 49.2%;
+}
+
+#registered-books {
+	font-family: 'Nunito';
+	font-size: 13px;
+	width: 100%;
+}
+
+#registered-books table td.td-header {
+	font-family: 'Titillium Web';
+	font-weight: 700;
+	border-bottom: 2px solid #dadada;
+	color: #3ba296;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+#registered-books table td {
+	padding: 25px 20px;
+	border-bottom: 1px solid #dadada;
+}
+
+.modal-btn {
+	border-radius: 28px;
+	background-color: #3ba296;
+	padding: 5px 10px;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+}
+
+.options-book a {
+	color: #3ba296;
+}
+
+.options-book a i {
+	font-size: 20px;
+}
+
+.img-modal, .desc-modal, .morada-modal, .delete-modal {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1002;
+	padding: 0;
+	font-family: 'Nunito';
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.desc-modal-cnt, .img-modal-cnt, .morada-modal-cnt, .delete-modal-cnt {
+	width: auto;
+	position:absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	background-color: #fff;
+	height: auto;
+	border-radius: 2px;
+	padding: 30px;
+	font-size: 15px;
+	line-height: 30px;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+.delete-modal-cnt p {
+	margin-bottom: 10px;
+}
+
+.delete-modal-cnt a {
+	background-color: #3ba296;
+	color: #f5f5f5;
+	border-radius: 2px;
+	padding: 5px 15px;
+}
+
+.page-num {
+	text-align: center;
+	margin: 50px 0 40px 0;
+}
+
+.page-num a {
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Nunito', sans-serif;
+	background-color: #292f36;
+	font-size: 15px;
+	border-radius: 50%;
+	margin: 0 3px;
+	padding: 10px 15px;
+}

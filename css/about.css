@@ -1,0 +1,99 @@
+/* Change 'Livros' navigation drop-down's hover color */
+div.drp-cnt a:hover {
+	background-color: #49c5b6;
+} 
+
+.container div.header {
+	height: 35vh;
+	position: relative;
+	z-index: 1002;
+}
+
+.header div#header-img {
+	background-image: url('../media/about-header.jpeg');
+	height: 40%;
+	background-position: center;
+}
+
+#first-box-about {
+	font-family: 'Titillium Web';
+}
+
+#shop-about {
+	display: block;
+	text-align: center;
+}
+
+#shop-about .box-txt h1:after {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.box-about {
+	margin: 0 auto 20px auto;
+	padding: 20px;
+	width: 80%;
+	background-color: #fff;
+	border-radius: 2px;
+	display: flex;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+.dark-about {
+	background-color: #292f36;
+	color: #f5f5f5;
+}
+
+.dark-about p {
+	color: #f5f5f5 !important;
+}
+
+.box-txt {
+	font-family: 'Nunito';
+	padding: 20px;
+	line-height: 35px;
+}
+
+.box-txt h1 {
+	font-weight: 100;
+	position: relative;
+}
+
+.box-txt h1:after {
+	content: '';
+	border: 1px solid #49c5b6;
+	transform: rotate(180deg);
+	position: absolute;
+	width: 30px;
+	bottom: -10px;
+}
+
+h1#func:after {
+	position: absolute;
+	right: 2px;
+}
+
+h1#clie:after {
+	position: absolute;
+	left: 2px;
+}
+
+.box-txt p {
+	font-size: 15px;
+	color: #292f36;
+	margin-top: 40px;
+}
+
+.mapouter {
+	text-align: center;
+	height: 500px;
+	width: 100%;
+}
+
+.gmap_canvas {
+	overflow: hidden;
+	background: none!important;
+	height: 500px;
+	width: 100%;
+}
